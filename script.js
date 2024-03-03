@@ -1,4 +1,5 @@
 let screenwidth = window.innerWidth;
+document.getElementById("noBtn").style.left = screenwidth/2 - 100 + "px";
 let int = setInterval(() => {
     screenwidth = window.innerWidth;
     console.log(screenwidth/2);
