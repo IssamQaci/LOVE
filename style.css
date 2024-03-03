@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.id{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 300px;
+    height: 80vh;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.gif{
+    width: 200px;
+    height: 150px;
+}
+img{
+    width: 200px;
+    height: 150px;
+}
+#btn{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80px;
+    transition: background-color 0.5s;
+}
+button:hover{
+    background-color: aqua;
+}
+#noBtn{
+    position: absolute;
+    left: 200px;
+    transition: margin 0.05s;
+}
+#yesBtn{
+    margin-left: 50px;
+}
+video{
+    height: 600px;
+}
+#gif2{
+    margin-right: 100px;
+    margin-top: 0px;
+}
+#body2{
+    background-image: url(gif/7-09.jpg);
+    background-size: cover;
+}
